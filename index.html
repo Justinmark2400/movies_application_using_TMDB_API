@@ -1,0 +1,1553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="src/css/general.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/mediaQueries.css" />
+    <script type="'module" src="src/js/script.js"></script>
+    <title>MoviesVerse</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <p class="website-name">Movies<span>Verse</span></p>
+      <nav>
+        <form class="search">
+          <div>
+            <button class="search-btn">
+              <i class="ph ph-magnifying-glass"></i>
+            </button>
+            <input
+              class="search-input"
+              type="text"
+              placeholder="Search any movies..."
+            />
+          </div>
+          <div class="spinner-sm hidden"></div>
+        </form>
+        <button class="mobile-menu">
+          <i class="ph-fill ph-list"></i>
+          <i class="ph ph-x"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main class="main">
+      <aside class="sidebar">
+        <p class="sidebar-heading">Genre</p>
+        <ul class="genre">
+          <li class="genre-name">Action</li>
+          <li class="genre-name">Adventure</li>
+          <li class="genre-name">Animation</li>
+          <li class="genre-name">Comedy</li>
+          <li class="genre-name">Crime</li>
+          <li class="genre-name">Documentary</li>
+          <li class="genre-name">Drama</li>
+          <li class="genre-name">Family</li>
+          <li class="genre-name">Fantasy</li>
+          <li class="genre-name">History</li>
+          <li class="genre-name">Horror</li>
+          <li class="genre-name">Music</li>
+          <li class="genre-name">Mystery</li>
+          <li class="genre-name">Romance</li>
+          <li class="genre-name">Science Fiction</li>
+          <li class="genre-name">TV Movie</li>
+          <li class="genre-name">Thriller</li>
+          <li class="genre-name">War</li>
+          <li class="genre-name">Western</li>
+          <!-- <li class="genre-name">Western</li> -->
+        </ul>
+      </aside>
+
+      <article class="main-article">
+        <div class="main-container">
+          <header class="secondary-header">
+            <div class="header--movie-display">
+              <div class="header-movie-info">
+                <h2 class="header-movie-name">Insidious: The Red Door</h2>
+                <div class="header-movie-details">
+                  <p class="header-movie-year">2023</p>
+                  <p class="header-movie-rating">6.8</p>
+                </div>
+                <p class="header-movie-genre">Horror, Mystery, Thriller</p>
+                <p class="header-movie-overview">
+                  To put their demons to rest once and for all, Josh Lambert and
+                  a college-aged Dalton Lambert must go deeper into The Further
+                  than ever before, facing their family's dark past and a host
+                  of new and more horrifying terrors that lurk behind the red
+                  door.
+                </p>
+                <button class="watch-now-btn">
+                  <i class="ph ph-play-circle"></i> Watch Now
+                </button>
+              </div>
+              <div class="header--movies-slides">
+                <div class="header--movies-slide">
+                  <img
+                    src="https://image.tmdb.org/t/p/original/uS1AIL7I1Ycgs8PTfqUeN6jYNsQ.jpg"
+                    alt=""
+                    class="header--movies-slide--active"
+                  />
+                </div>
+                <div class="header--movies-slide">
+                  <img
+                    src="https://image.tmdb.org/t/p/original/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="header--movies-slide">
+                  <img
+                    src="https://image.tmdb.org/t/p/original/4m1Au3YkjqsxF8iwQy0fPYSxE0h.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="header--movies-slide">
+                  <img
+                    src="https://image.tmdb.org/t/p/original/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="header--movies-slide">
+                  <img
+                    src="https://image.tmdb.org/t/p/original/gPbM0MK8CP8A174rmUwGsADNYKD.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="header--movies-slide">
+                  <img
+                    src="https://image.tmdb.org/t/p/original/zsbolOkw8RhTU4DKOrpf4M7KCmi.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </header>
+          <section class="section-trending-movies">
+            <h3 class="section section-heading">Weekly Trending Movies</h3>
+            <div class="movies-slides">
+              <div class="movies-slide">
+                <div class="movie-img">
+                  <div class="movie-img-container">
+                    <img
+                      class="movie-poster"
+                      src="https://image.tmdb.org/t/p/original/qayga07ICNDswm0cMJ8P3VwklFZ.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <p class="movie-name">Resident Evil: Death Island</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.9</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/bBON9XO9Ek0DjRwMBnJNCwC96Cd.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">
+                  Miraculous: Ladybug & Cat Noir, The Movie
+                </p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.0</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/9dTO2RygcDT0cQkawABw4QkDegN.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Shin Kamen Rider</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/kgrLpJcLBbyhWIkK7fx1fM4iSvf.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Ruby Gillman, Teenage Kraken</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>4.8</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/eeJjd9JU2Mdj9d7nWRFLWlrcExi.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Mavka: The Forest Song</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.4</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/jP2ik17jvKiV5sGEknMFbZv7WAe.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Warhorse One</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.3</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/4XLZS2xvdv5rxizzTUVREtRyw95.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Fear the Night</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>6.5</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/50WLieQSV6WSPoNjhf0GabbOeey.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Kingdom 3: The Flame of Fate</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.4</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Oppenheimer</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.3</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/8riWcADI1ekEiBguVB9vkilhiQm.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Elemental</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <button class="btn-explore-more">
+                <i class="ph-fill ph-caret-circle-right"></i>
+              </button>
+            </div>
+          </section>
+          <section class="section-rated-movies">
+            <h3 class="section section-heading">Top Rated Movies</h3>
+            <div class="movies-slides">
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/qayga07ICNDswm0cMJ8P3VwklFZ.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Resident Evil: Death Island</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.9</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/bBON9XO9Ek0DjRwMBnJNCwC96Cd.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">
+                  Miraculous: Ladybug & Cat Noir, The Movie
+                </p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.0</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/9dTO2RygcDT0cQkawABw4QkDegN.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Shin Kamen Rider</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/kgrLpJcLBbyhWIkK7fx1fM4iSvf.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Ruby Gillman, Teenage Kraken</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>4.8</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/eeJjd9JU2Mdj9d7nWRFLWlrcExi.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Mavka: The Forest Song</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.4</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/jP2ik17jvKiV5sGEknMFbZv7WAe.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Warhorse One</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.3</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/4XLZS2xvdv5rxizzTUVREtRyw95.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Fear the Night</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>6.5</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/50WLieQSV6WSPoNjhf0GabbOeey.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Kingdom 3: The Flame of Fate</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.4</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Oppenheimer</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.3</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/8riWcADI1ekEiBguVB9vkilhiQm.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Elemental</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <button class="btn-explore-more">
+                <i class="ph-fill ph-caret-circle-right"></i>
+              </button>
+            </div>
+          </section>
+          <section class="section-upcoming-movies">
+            <h3 class="section section-heading">Upcoming Movies</h3>
+            <div class="movies-slides">
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/qayga07ICNDswm0cMJ8P3VwklFZ.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Resident Evil: Death Island</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.9</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/bBON9XO9Ek0DjRwMBnJNCwC96Cd.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">
+                  Miraculous: Ladybug & Cat Noir, The Movie
+                </p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.0</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/9dTO2RygcDT0cQkawABw4QkDegN.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Shin Kamen Rider</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/kgrLpJcLBbyhWIkK7fx1fM4iSvf.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Ruby Gillman, Teenage Kraken</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>4.8</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/eeJjd9JU2Mdj9d7nWRFLWlrcExi.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Mavka: The Forest Song</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.4</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/jP2ik17jvKiV5sGEknMFbZv7WAe.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Warhorse One</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.3</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/4XLZS2xvdv5rxizzTUVREtRyw95.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Fear the Night</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>6.5</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/50WLieQSV6WSPoNjhf0GabbOeey.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Kingdom 3: The Flame of Fate</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.4</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Oppenheimer</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.3</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/8riWcADI1ekEiBguVB9vkilhiQm.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Elemental</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <button class="btn-explore-more">
+                <i class="ph-fill ph-caret-circle-right"></i>
+              </button>
+            </div>
+          </section>
+        </div>
+        <div class="preview hidden">
+          <section class="preview-container">
+            <!-- <div class="preview-poster"> -->
+            <img
+              src="https://image.tmdb.org/t/p/original/uS1AIL7I1Ycgs8PTfqUeN6jYNsQ.jpg"
+              alt=""
+              class="preview-img"
+            />
+            <!-- </div> -->
+            <div class="movie-preview">
+              <div class="preview-info">
+                <h3 class="header-movie-name">Insidious: The Red Door</h3>
+                <ul class="preview-details">
+                  <li class="preview-rating gray-text">
+                    <i class="ph-fill ph-star"></i> 6.8
+                  </li>
+                  <li class="preview-runtime gray-text"><span>107</span>m</li>
+                  <li class="preview-year gray-text">2023</li>
+                  <li class="preview-rated">PG-13</li>
+                </ul>
+                <p class="preview-genres gray-text">
+                  Horror, Mystery, Thriller
+                </p>
+                <p class="preview-overview text">
+                  To put their demons to rest once and for all, Josh Lambert and
+                  a college-aged Dalton Lambert must go deeper into The Further
+                  than ever before, facing their family's dark past and a host
+                  of new and more horrifying terrors that lurk behind the red
+                  door.
+                </p>
+                <div class="preview-cast">
+                  <p class="gray-text">Starring</p>
+                  <p class="cast-name text">
+                    Ty Simpkins, Dalton Lamber, Patrick Wilson, Josh Lambert,
+                    Rose Byrne, Renai Lambert, Sinclair Daniel, Chris Winslow,
+                    Hiam Abbass.
+                  </p>
+                </div>
+                <div class="preview-director">
+                  <p class="gray-text">Directed By</p>
+                  <p class="diretor-name text">Patrick Wilson</p>
+                </div>
+              </div>
+              <h3 class="text trailer-A-clips-heading">Trailers And Clips</h3>
+
+              <div class="trailers">
+                <div class="trailer">
+                  <iframe
+                    src="https://www.youtube.com/embed/y3w7t9EwGUw"
+                  ></iframe>
+                </div>
+                <div class="trailer">
+                  <iframe
+                    src="https://www.youtube.com/embed/wfX7Vc1wo6I"
+                  ></iframe>
+                </div>
+                <div class="trailer">
+                  <iframe
+                    src="https://www.youtube.com/embed/jEWfbNMA07I"
+                  ></iframe>
+                </div>
+                <div class="trailer">
+                  <iframe
+                    src="https://www.youtube.com/embed/VMnThZnZJLY"
+                  ></iframe>
+                </div>
+                <div class="trailer">
+                  <iframe
+                    src="https://www.youtube.com/embed/OQSERARdF0s"
+                  ></iframe>
+                </div>
+                <div class="trailer">
+                  <iframe
+                    src="https://www.youtube.com/embed/I5Xb7jROiX0"
+                  ></iframe>
+                </div>
+                <div class="trailer">
+                  <iframe
+                    src="https://www.youtube.com/embed/mpGnKmBM8Ek"
+                  ></iframe>
+                </div>
+                <div class="trailer">
+                  <iframe
+                    src="https://www.youtube.com/embed/skIUWgYeGIg"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section-suggestion-movies">
+            <h3 class="section section-heading">You May Also Like</h3>
+            <div class="movies-slides">
+              <div class="movies-slide">
+                <div class="movie-img">
+                  <div class="movie-img-container">
+                    <img
+                      class="movie-poster"
+                      src="https://image.tmdb.org/t/p/original/qayga07ICNDswm0cMJ8P3VwklFZ.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <p class="movie-name">Resident Evil: Death Island</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.9</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/bBON9XO9Ek0DjRwMBnJNCwC96Cd.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">
+                  Miraculous: Ladybug & Cat Noir, The Movie
+                </p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.0</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/9dTO2RygcDT0cQkawABw4QkDegN.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Shin Kamen Rider</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/kgrLpJcLBbyhWIkK7fx1fM4iSvf.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Ruby Gillman, Teenage Kraken</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>4.8</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/eeJjd9JU2Mdj9d7nWRFLWlrcExi.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Mavka: The Forest Song</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.4</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/jP2ik17jvKiV5sGEknMFbZv7WAe.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Warhorse One</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.3</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/4XLZS2xvdv5rxizzTUVREtRyw95.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Fear the Night</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>6.5</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/50WLieQSV6WSPoNjhf0GabbOeey.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Kingdom 3: The Flame of Fate</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.4</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Oppenheimer</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.3</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/8riWcADI1ekEiBguVB9vkilhiQm.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Elemental</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <button class="btn-explore-more">
+                <i class="ph-fill ph-caret-circle-right"></i>
+              </button>
+            </div>
+          </section>
+        </div>
+        <div class="all-movies hidden">
+          <h3 class="header-movie-name">All Action Movies</h3>
+          <section class="section-all-movies">
+            <div class="movies-all-slides">
+              <div class="movies-slide">
+                <div class="movie-img">
+                  <div class="movie-img-container">
+                    <img
+                      class="movie-poster"
+                      src="https://image.tmdb.org/t/p/original/qayga07ICNDswm0cMJ8P3VwklFZ.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <p class="movie-name">Resident Evil: Death Island</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.9</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/bBON9XO9Ek0DjRwMBnJNCwC96Cd.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">
+                  Miraculous: Ladybug & Cat Noir, The Movie
+                </p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.0</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/9dTO2RygcDT0cQkawABw4QkDegN.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Shin Kamen Rider</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/kgrLpJcLBbyhWIkK7fx1fM4iSvf.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Ruby Gillman, Teenage Kraken</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>4.8</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/eeJjd9JU2Mdj9d7nWRFLWlrcExi.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Mavka: The Forest Song</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.4</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/jP2ik17jvKiV5sGEknMFbZv7WAe.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Warhorse One</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.3</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img">
+                  <div class="movie-img-container">
+                    <img
+                      class="movie-poster"
+                      src="https://image.tmdb.org/t/p/original/qayga07ICNDswm0cMJ8P3VwklFZ.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <p class="movie-name">Resident Evil: Death Island</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.9</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/bBON9XO9Ek0DjRwMBnJNCwC96Cd.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">
+                  Miraculous: Ladybug & Cat Noir, The Movie
+                </p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.0</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/9dTO2RygcDT0cQkawABw4QkDegN.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Shin Kamen Rider</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/kgrLpJcLBbyhWIkK7fx1fM4iSvf.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Ruby Gillman, Teenage Kraken</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>4.8</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/eeJjd9JU2Mdj9d7nWRFLWlrcExi.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Mavka: The Forest Song</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.4</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/jP2ik17jvKiV5sGEknMFbZv7WAe.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Warhorse One</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.3</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/4XLZS2xvdv5rxizzTUVREtRyw95.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Fear the Night</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>6.5</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/50WLieQSV6WSPoNjhf0GabbOeey.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Kingdom 3: The Flame of Fate</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.4</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Oppenheimer</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>8.3</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+              <div class="movies-slide">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/8riWcADI1ekEiBguVB9vkilhiQm.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="movie-name">Elemental</p>
+                <div class="movie-info">
+                  <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                  <p class="movie-release-date">2023</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <button class="btn-learn-more">Learn More</button>
+        </div>
+        <div class="overlay hidden"></div>
+        <div class="spinner hidden"></div>
+      </article>
+    </main>
+    <main class="main-result hidden">
+      <div class="result">
+        <h3 class="result-heading">Results for</h3>
+        <h3 class="header-movie-name">Input</h3>
+        <section class="section-all-movies">
+          <div class="movies-result-slides">
+            <div class="movies-slide">
+              <div class="movie-img">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/qayga07ICNDswm0cMJ8P3VwklFZ.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <p class="movie-name">Resident Evil: Death Island</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.9</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/bBON9XO9Ek0DjRwMBnJNCwC96Cd.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">
+                Miraculous: Ladybug & Cat Noir, The Movie
+              </p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>8.0</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/9dTO2RygcDT0cQkawABw4QkDegN.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Shin Kamen Rider</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/kgrLpJcLBbyhWIkK7fx1fM4iSvf.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Ruby Gillman, Teenage Kraken</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>4.8</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/eeJjd9JU2Mdj9d7nWRFLWlrcExi.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Mavka: The Forest Song</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.4</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/jP2ik17jvKiV5sGEknMFbZv7WAe.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Warhorse One</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.3</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/qayga07ICNDswm0cMJ8P3VwklFZ.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <p class="movie-name">Resident Evil: Death Island</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.9</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/bBON9XO9Ek0DjRwMBnJNCwC96Cd.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">
+                Miraculous: Ladybug & Cat Noir, The Movie
+              </p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>8.0</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/9dTO2RygcDT0cQkawABw4QkDegN.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Shin Kamen Rider</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/kgrLpJcLBbyhWIkK7fx1fM4iSvf.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Ruby Gillman, Teenage Kraken</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>4.8</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/eeJjd9JU2Mdj9d7nWRFLWlrcExi.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Mavka: The Forest Song</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.4</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/jP2ik17jvKiV5sGEknMFbZv7WAe.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Warhorse One</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.3</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/4XLZS2xvdv5rxizzTUVREtRyw95.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Fear the Night</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>6.5</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/50WLieQSV6WSPoNjhf0GabbOeey.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Kingdom 3: The Flame of Fate</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>8.4</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Oppenheimer</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>8.3</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/8riWcADI1ekEiBguVB9vkilhiQm.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Elemental</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+
+            <div class="movies-slide">
+              <div class="movie-img">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/qayga07ICNDswm0cMJ8P3VwklFZ.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <p class="movie-name">Resident Evil: Death Island</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.9</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/bBON9XO9Ek0DjRwMBnJNCwC96Cd.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">
+                Miraculous: Ladybug & Cat Noir, The Movie
+              </p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>8.0</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/9dTO2RygcDT0cQkawABw4QkDegN.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Shin Kamen Rider</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/kgrLpJcLBbyhWIkK7fx1fM4iSvf.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Ruby Gillman, Teenage Kraken</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>4.8</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/eeJjd9JU2Mdj9d7nWRFLWlrcExi.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Mavka: The Forest Song</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.4</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/jP2ik17jvKiV5sGEknMFbZv7WAe.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Warhorse One</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.3</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img">
+                <div class="movie-img-container">
+                  <img
+                    class="movie-poster"
+                    src="https://image.tmdb.org/t/p/original/qayga07ICNDswm0cMJ8P3VwklFZ.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <p class="movie-name">Resident Evil: Death Island</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.9</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/bBON9XO9Ek0DjRwMBnJNCwC96Cd.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">
+                Miraculous: Ladybug & Cat Noir, The Movie
+              </p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>8.0</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/9dTO2RygcDT0cQkawABw4QkDegN.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Shin Kamen Rider</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/kgrLpJcLBbyhWIkK7fx1fM4iSvf.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Ruby Gillman, Teenage Kraken</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>4.8</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/eeJjd9JU2Mdj9d7nWRFLWlrcExi.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Mavka: The Forest Song</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.4</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/jP2ik17jvKiV5sGEknMFbZv7WAe.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Warhorse One</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.3</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/4XLZS2xvdv5rxizzTUVREtRyw95.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Fear the Night</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>6.5</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/50WLieQSV6WSPoNjhf0GabbOeey.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Kingdom 3: The Flame of Fate</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>8.4</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Oppenheimer</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>8.3</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+            <div class="movies-slide">
+              <div class="movie-img-container">
+                <img
+                  class="movie-poster"
+                  src="https://image.tmdb.org/t/p/original/8riWcADI1ekEiBguVB9vkilhiQm.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="movie-name">Elemental</p>
+              <div class="movie-info">
+                <p class="movie-rating"><i class="ph-fill ph-star"></i>7.6</p>
+                <p class="movie-release-date">2023</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <button class="btn-learn-more">Learn More</button>
+      </div>
+    </main>
+  </body>
+</html>

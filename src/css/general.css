@@ -1,0 +1,86 @@
+.section {
+  padding-top: 2.4rem;
+}
+.section-heading {
+  color: #f3f4f6;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.hidden {
+  display: none !important;
+}
+.gray-text {
+  font-size: 1.6rem;
+  color: #a1a1aa;
+}
+.text {
+  font-size: 1.6rem;
+  color: #f3f4f6;
+  line-height: 1.6;
+}
+.btn-explore-more {
+  background: none;
+  font-size: 7.2rem;
+  border: none;
+  color: #fff;
+  transition: all 0.3s;
+  margin-left: 2.4rem;
+}
+.btn-explore-more:hover {
+  color: #a1a1aa;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  right: 50%;
+}
+.spinner::after {
+  content: "";
+  display: block;
+  height: 6rem;
+  width: 6rem;
+  border: 1.2rem solid #d1d5db;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.spinner-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinner-sm::after {
+  content: "";
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  border: 0.4rem solid #d1d5db;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.4;
+}

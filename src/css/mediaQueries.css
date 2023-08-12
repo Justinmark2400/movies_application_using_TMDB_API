@@ -1,0 +1,111 @@
+@media (max-width: 75em) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    display: none;
+  }
+  .mobile-sidebar.sidebar {
+    position: absolute;
+    z-index: 1;
+    background-color: #18181b;
+    width: 28rem;
+    height: 100%;
+    display: block;
+  }
+  nav {
+    grid-template-columns: auto auto;
+  }
+  .mobile-menu {
+    display: block;
+  }
+
+  .mobile-sidebar i[class~="ph-x"] {
+    display: block;
+  }
+  .mobile-sidebar i[class~="ph-list"] {
+    display: none;
+  }
+  .header--movies-slide img {
+    height: 100%;
+    width: 10rem;
+    border-radius: 11px;
+  }
+  .header--movies-slides {
+    height: 20%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 43%;
+  }
+  .main-container {
+    padding: 1.6rem 0;
+  }
+  .header--movie-display {
+    height: 40vh;
+  }
+  .header--movies-slides {
+    height: 20%;
+  }
+  .header--movies-slide {
+    width: 10rem;
+  }
+  .section {
+    padding-top: 4.8rem;
+  }
+  .section-heading {
+    margin-bottom: 3rem;
+  }
+  .header-movie-info {
+    top: 15%;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .movies-slide {
+    min-width: 13rem;
+  }
+  .movie-poster {
+    height: 20rem;
+  }
+  .header--movies-slides {
+    width: 45%;
+  }
+  .header--movies-slide img {
+    width: 8rem;
+  }
+  .search {
+    width: 25rem;
+  }
+  .header-movie-name {
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 25em) {
+  .main-header {
+    padding: 1.6rem 0.8rem;
+  }
+  .main {
+    margin-top: 0;
+  }
+  .website-name {
+    font-size: 3.2rem;
+  }
+  .search {
+    width: 22rem;
+    /* padding: 0; */
+  }
+  nav {
+    gap: 1.2rem;
+  }
+  .mobile-menu i {
+    font-size: 3.2rem;
+  }
+  .search {
+    border-radius: 9px;
+  }
+  .search-input {
+    padding: 0;
+  }
+}
