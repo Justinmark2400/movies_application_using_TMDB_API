@@ -33,6 +33,7 @@ body {
 .website-name {
   font-family: "Bebas Neue", sans-serif;
   font-size: 4.4rem;
+  cursor: pointer;
   color: var(--main-text-color);
 }
 .website-name span {
@@ -145,6 +146,7 @@ nav {
 }
 .genre-name {
   transition: all 0.2s;
+  cursor: pointer;
 }
 .genre-name:hover {
   color: #d4d4d4;
@@ -181,19 +183,27 @@ nav {
   border-radius: 11px;
   overflow: hidden;
   height: 70vh;
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.4) 30%,
-      transparent
-    ),
-    url("https://image.tmdb.org/t/p/original/i2GVEvltEu3BXn5crBSxgKuTaca.jpg");
+  background-image: url("../img/INSI.jpeg");
 
   background-position: center;
   background-size: cover;
   position: relative;
 }
+
+.header--movie-display::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.4) 30%,
+    transparent
+  );
+}
 .header-movie-info {
   position: absolute;
+  z-index: 3;
   top: 40%;
   left: 8%;
   width: 40%;
@@ -259,6 +269,7 @@ nav {
 }
 
 .header--movies-slides {
+  z-index: 2;
   position: absolute;
   display: flex;
   gap: 1.2rem;
@@ -285,11 +296,13 @@ nav {
 
 .movies-slides {
   display: flex;
-  gap: 1.8rem;
   overflow-x: scroll;
   align-items: center;
 }
-
+.movies---slides {
+  display: flex;
+  gap: 1.8rem;
+}
 .movies-slide {
   min-width: 16.7rem;
 }
@@ -345,15 +358,34 @@ nav {
 /* PREVIEW-CONTAINER: */
 /* ********************* */
 .preview {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url("https://image.tmdb.org/t/p/original/azTC5osYiqei1ofw6Z3GmUrxQbi.jpg");
+  background-image: url("../img/INSIDIOUS.jpeg");
   background-position: center;
   background-size: cover;
   width: 100%;
+  overflow: hidden;
   height: 100%;
   padding: 2.4rem;
+  position: relative;
+}
+/* linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), */
+.preview::before {
+  content: "";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* z-index: 1; */
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8) 30%,
+    transparent
+  );
 }
 .preview-container {
+  z-index: 3;
+  position: relative;
   padding: 2.4rem;
   display: flex;
   gap: 3.2rem;
@@ -428,6 +460,7 @@ nav {
   width: 50rem;
 }
 .section-suggestion-movies {
+  position: relative;
   margin-top: 3.2rem;
 }
 
@@ -448,12 +481,17 @@ nav {
   display: grid;
 }
 .movies-all-slides {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  column-gap: 2.4rem;
-  row-gap: 4.8rem;
+  display: flex;
+  /* grid-template-columns: repeat(auto-fill, 20rem); */
+  /* column-gap: 2.4rem; */
+  /* row-gap: 4.8rem; */
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: space-evenly;
 }
-
+.movies-all-slides .movies-slide {
+  width: 20rem;
+}
 .btn-learn-more {
   font-size: 1.6rem;
   color: var(--main-text-color);
@@ -476,7 +514,8 @@ nav {
 /* ********************* */
 .main-result {
   background-color: #292524;
-  height: 90vh;
+  min-height: 90vh;
+  /* height: 90vh; */
   padding: 6.4rem;
 }
 .result {
@@ -489,10 +528,18 @@ nav {
   color: #e42c2c;
 }
 .movies-result-slides {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 16.7rem);
-  column-gap: 2.4rem;
-  row-gap: 4.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 0.8rem;
+
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fill, 16.7rem); */
+  /* column-gap: 2.4rem; */
+  /* row-gap: 4.8rem; */
+}
+.movies-result-slides .movies-slide {
+  width: 20rem;
 }
 
 /* 

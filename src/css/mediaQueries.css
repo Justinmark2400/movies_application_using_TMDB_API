@@ -60,6 +60,21 @@
   .header-movie-info {
     top: 15%;
   }
+  .trailer iframe {
+    width: 40rem;
+    height: 20rem;
+  }
+}
+@media (max-width: 43.75em) {
+  .preview-container {
+    flex-direction: column;
+  }
+  .preview-img {
+    align-self: center;
+    width: 25rem;
+    /* background-color: red; */
+    padding: 0.2rem;
+  }
 }
 
 @media (max-width: 31.25em) {
@@ -107,5 +122,9 @@
   }
   .search-input {
     padding: 0;
+  }
+  .trailer iframe {
+    width: 30rem;
+    height: 15rem;
   }
 }
